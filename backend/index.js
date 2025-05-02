@@ -22,7 +22,7 @@ app.get('/health',(req,res)=>{
 });
 
 // ADD TRANSACTION
-app.post('/transaction', (req,res)=>{
+app.post('/transactions', (req,res)=>{
     var response = "";
     try{
         t=moment().unix()
